@@ -6,7 +6,8 @@ Read about progress on our [blog](http://mech-lang.org/blog/), follow us on Twit
 
 ## Provided Functions
 
-- `string/split()`
+- `string/split(string,separator)`
+- `string/length(table)`
 
 ## License
 
