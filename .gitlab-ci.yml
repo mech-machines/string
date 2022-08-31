@@ -1,4 +1,4 @@
-image: "mechlang/mech:latest"
+image: "rust:latest"
 
 test:cargo:
   script:
@@ -7,4 +7,3 @@ test:cargo:
   - rustc --version && cargo --version
   - rustup component add rust-src
   - cargo build --release
-  - mech test tests
