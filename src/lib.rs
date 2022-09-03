@@ -13,5 +13,5 @@ lazy_static! {
 }
 
 pub mod join;
-//pub mod length;
-//pub mod split;
+pub mod length;
+pub mod split;
